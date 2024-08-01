@@ -1,0 +1,400 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ header nav {
+    background-color: #ffffff;
+    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    line-height: 24px;
+    size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    
+ }
+ .list{
+    display: flex;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    padding: 0px 0px 0px 300px;
+    line-height: 24px;
+    size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    
+ }
+ .logo{
+    width: 50px;
+    height: 32px;
+    padding: 0px 0px 0px 40px;
+    cursor: pointer;
+ }
+ .icon{
+    padding: 0px 0px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+ }
+ 
+.fmain{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 29% 40% 70% 50% ;
+    background-image: url(./p/scandinavian-interior-mockup-wall-decal-background\ 1.svg);
+    background-size: contain;
+    
+    background-repeat: no-repeat ;
+    
+}
+.text{
+    padding: 0px 0px 0 50px;
+    font-size: 34px;   
+    font-weight: 700;
+    line-height: 41.45px;
+    text-align: left;
+    color: #000000;
+
+}
+.f-text{
+
+    width: 123px;
+    height: 24px;
+    top: 315px;
+  
+    left: 780px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 3px;
+    text-align: left;
+
+}
+.s-text{
+    color: #B88E2F;
+}
+.t-text{
+    width: 546px;
+    size: 52px;
+    line-height: 52px;
+    font-weight: 700;
+    
+    height: 52px;
+    top: 487px;
+    left: 780px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+}
+.btn{
+    width: 222px;
+    height: 74px;
+    top: 585px;
+    left: 780px;
+    padding: 25px 72px 25px 72px;
+    gap: 10px;
+   
+    background-color:  #B88E2F;
+    color: #ffffff;
+    border-radius: 5%;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+    
+    
+
+}
+.Browse{
+    width: 1183px;
+    height: 685px;
+    top: 750px;
+    left: 131px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+.Range{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+    
+
+}
+.Lorem{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+
+
+
+}
+.img{
+    
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    
+    cursor: pointer;
+    
+}
+
+.Dining{
+    position: absolute;
+    padding: 50px;
+    top: 850px;
+    left:0px;
+    gap: 0px;
+    padding: 50px 80px 80px 20px;
+    
+    
+}
+.Living{
+    position: absolute;
+    display: absolute;
+    top: 850px;
+    left: 400px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 50px 80px 80px 60px;
+}
+.Bedroom{
+
+    display: absolute;
+    position: absolute;
+    top: 0px;
+    left: 440px;
+    padding: 50px 80px 80px 60px;
+}
+
+.f-p{
+    position: absolute;
+    left: 190px;
+    
+
+}
+
+.s-p{
+    position: absolute;
+    left: 230px;
+    
+
+}
+.t-p{
+    position: absolute;
+    left: 230px;
+    
+
+}
+.content-wrapper{
+    background-color:#FFF3E3;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+.our{
+    display: absolute;
+    position: absolute;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+    top: 580px;
+    left: 135px;
+}
+.f-i{
+    position: absolute;
+    top: 638px;
+    right: 610px;
+    color: #3A3A3A;
+
+    background-color: #F4F5F7;
+    line-height: 24px;
+}
+.line{
+    display: absolute;
+    position: absolute;
+    left: 150px;
+    top: 354px;
+    text-decoration: line-through;
+}
+.label{
+    position: absolute;
+    display: absolute;
+    left: 220px;
+    top: 15px;
+}
+.photo{
+    position: absolute;
+    display: absolute;
+    top: 637px;
+    left: -50px;
+    cursor: pointer;
+}
+.f-i-b{
+    position: absolute;
+    display: absolute;
+    left: 280px;
+    top: 636px;
+    color: #3A3A3A;
+    line-height: 24px;
+    background-color: #F4F5F7;
+
+}
+.line-b{
+    display: absolute;
+    position: absolute;
+    left:   200px;
+    top: 355px;
+    text-decoration: line-through;
+}
+.label-b{
+
+    position: absolute;
+    display: absolute;
+    left: 220px;
+    top: 15px;
+}
+.f-i-c{
+    position: absolute;
+    display: absolute;
+    left: 610px;
+    top: 636px;
+    color: #3A3A3A;
+    line-height: 24px;
+    background-color: #F4F5F7;
+}
+.label-c{
+
+    position: absolute;
+    display: absolute;
+    left: 220px;
+    top: 15px;
+    color: #3A3A3A;
+}
+.f-i-d{
+    position: absolute;
+    display: absolute;
+    left: -370px;
+    top: 1110px;
+    color: #3A3A3A;
+    line-height: 24px;
+    background-color: #F4F5F7;
+}
+.f-i-e{
+    position: absolute;
+    display: absolute;
+    left: -50px;
+    top: 1110px;
+    color: #3A3A3A;
+    line-height: 24px;
+    background-color: #F4F5F7;
+}
+.label-e{
+
+    position: absolute;
+    display: absolute;
+    left: 220px;
+    top: 15px;
+    color: #3A3A3A;
+}
+.f-i-f{
+    position: absolute;
+    display: absolute;
+    left: 280px;
+    top: 1110px;
+    color: #3A3A3A;
+    line-height: 24px;
+    background-color: #F4F5F7;
+}
+.line-f{
+    display: absolute;
+    position: absolute;
+    left:   180px;
+    top: 355px;
+    text-decoration: line-through;
+}
+.label-f{
+
+    position: absolute;
+    display: absolute;
+    left: 220px;
+    top: 15px;
+}
+
+.f-i-g{
+    position: absolute;
+    display: absolute;
+    left: 613px;
+    top: 1110px;
+    color: #3A3A3A;
+    line-height: 24px;
+    background-color: #F4F5F7;
+}
+.label-g{
+    
+
+    position: absolute;
+    display: absolute;
+    left: 220px;
+    top: 15px;
+    color: #3A3A3A;
+}
+.btn-a{
+    display: absolute;
+    position: absolute;
+    top: 1600px;
+    left: 25%;
+    width: 245px;
+    height: 48px;
+    border: 1px 0px 0px 0px;
+    padding: 12px 72px 12px 84px;
+    background: #ffffff;
+    border: #B88E2F;
+    border: 1px solid #B88E2F
+    
+
+    
+    
+}
+.btn-b{
+    width: 89px;
+    height: 24px;
+    color: #B88E2F;
+    
+}
